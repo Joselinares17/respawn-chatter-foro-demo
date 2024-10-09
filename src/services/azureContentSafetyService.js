@@ -1,11 +1,8 @@
-import axios from 'axios';
 import ContentSafetyClient from "@azure-rest/ai-content-safety";
 import { AzureKeyCredential } from "@azure/core-auth";
 
 const API_KEY = '450a56bea54841209629807860df4c88';
 const ENDPOINT = 'https://ia-content-moderator-lab.cognitiveservices.azure.com/';
-const credential = new AzureKeyCredential(API_KEY);
-const client = ContentSafetyClient(ENDPOINT, credential);
 
 class AzureContentSafetyService {
   constructor(endpoint, apiKey) {

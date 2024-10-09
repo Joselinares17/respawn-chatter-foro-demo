@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
-import HomePage from './pages/home/HomePage';
+import CommentSection from './components/CommentSection';
 
 function App() {
   return (
     <div className='flex max-w-6xl mx-auto'>
       <Routes>
-        <Route path='/' element={<HomePage />} />
+        <Route path='/' element={<CommentSection />} />
       </Routes>
     </div>
   )

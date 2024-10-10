@@ -283,7 +283,7 @@ Para iniciar el desarrollo del módulo de foro, hemos elegido utilizar React com
 }
  ```
 
-#### 5.2.3 **Comandos para iniciar el frontend y backend**
+#### 5.2.3 **Comandos para iniciar el frontend**
 
   El comando para ejecutar el frontend es: 
 
@@ -291,11 +291,7 @@ Para iniciar el desarrollo del módulo de foro, hemos elegido utilizar React com
   npm run dev
   ```
 
-  Y para ejecutar el backend es: 
-
-  ```bash
-  npm run server
-  ```
+  Para la demo no se tiene un backend en sí, porque se maneja en servicios directamente desde el frontend
 
 #### 5.2.4 **Creación del recurso de Azure y configuración en local**
   Una vez iniciado sesión en Azure nos dirigimos `create a resource`, en el buscador ponemos "AI", te redirigirá a un menú y seleccionas la opción "Azure service only" te saldrá la siguiente página:
